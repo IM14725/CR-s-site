@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+         <div class="profile">              
+           <img src="assets/image/nit.jpeg">
+         </div>                             
+       <h1>NIT Vennue Report System</h1>   
+    </header>
+
+    <section class="container">
+            <div class="innerContainer">
+                <div class="welcome">
+                     <h2>Welcome !</h2>
+                     <p>Publish & Book available free vennue.</p>
+                </div>
+
+                <div class="infContainer">
+                    <div class="info">
+                        <p>NIT/BIT/2024/2441</p>
+                        <p>Dotto Godfrey</p>
+                    </div>
+                    <div class="info">
+                        <p>Bachelor of Information Techology</p>
+                        <p>lv 8, stream A</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="reportBtn">
+                 <i class="fa-solid fa-circle-plus"></i>
+                 <span>Report Free Vennue</span>
+            </button>
+    </section>
+    <section class="container">
+        <div class="upperContainer">
+            <h2>Available Vennue</h2>
+
+            <div class="vennueContainer">
+               <p><span>Vennue:</span> Block 15 RWF 03</p> 
+               <p><span>Status:</span> <span id="status">Available</span></p>
+               
+               <div class="timeContainer">
+                   <div class="time">
+                        <p class="icon"><i class="fa-solid fa-hourglass-start"></i></p>
+                        <div class="timeInfo">
+                           <p><small>post At: </small></p>
+                           <p><small>10 : 00 am</small></p>
+                        </div>
+                    </div>
+                  
+                   <div class="time">                                         
+                        <p class="icon"><i class="fa-solid fa-hourglass-end"></i></p>             
+                        <div class="timeInfo">                              
+                           <p><small>Expire At: </small></p> 
+                           <p><small>12 : 00 pm</small></p>
+                        </div>                             
+                    </div> 
+                    
+                    <button class="bookBtn"><i class="fa-solid fa-bookmark"></i> Book Now</button>
+               </div>
+            </div>
+
+
+           <div class="vennueContainer">                                                   
+              <p><span>Vennue:</span> Block 15 RWF 03</p>                                  
+              <p><span>Status:</span> <span id="status">Available</span></p>               
+                                                                                           
+              <div class="timeContainer">                                                  
+                  <div class="time">                                                       
+                       <p class="icon"><i class="fa-solid fa-hourglass-start"></i></p>     
+                       <div class="timeInfo">                                              
+                          <p><small>post At: </small></p>                                  
+                          <p><small>10 : 00 am</small></p>                                 
+                       </div>                                                              
+                   </div>                                                                  
+                                                                                           
+                  <div class="time">                                                       
+                       <p class="icon"><i class="fa-solid fa-hourglass-end"></i></p>       
+                       <div class="timeInfo">                                              
+                          <p><small>Expire At: </small></p>                                
+                          <p><small>12 : 00 pm</small></p>                                 
+                       </div>                                                              
+                   </div>                                                                  
+                                                                                           
+                   <button class="bookBtn"><i class="fa-solid fa-bookmark"></i> Book Now</button>                               
+              </div>                                                                       
+           </div>                                                                          
+        </div>
+    </section>
+
+    <section class="bookFormContainer displayNone">
+        <div class="close">
+            <button class="closeBtn"> <i class="fa-solid fa-x"></i></button>
+        </div>
+        <h3>Report free Vennue</h3>
+        <form class="formContainer">
+            <div class="formInput">
+                <label for="vennue">Vennue Name: </label>
+                <input type="text" name="vennue" placeholder="Eg. block 12" id="vennue" class="inputText" required>
+            </div>
+
+           <div class="setTimeContainer">  
+                 <div class="setTime">
+                        <label for="startTime">start Time: </label>                            
+                        <input type="time" class="inputText" placeholder="00:00 AM" name="startTime" id="startTime" required>
+                 </div>                                              
+
+                <div class="setTime">                                                                       
+                       <label for="endTime">end Time: </label>                            
+                       <input type="time" class="inputText" placeholder="00:00 PM"   name="endTime" id="endTime" required>  
+                 </div>                                                                             
+            </div>                                                                     
+           <div class="formInput">                                                                                                                                
+               <label for="vennue">Reason: </label>  
+               <select name="reason" id="reason" class="inputText">
+                  <option value="Class cancelled">Class cancelled</option>
+                  <option value="Class cancelled">Class cancelled</option>
+                  <option value="Class cancelled">Class cancelled</option>
+                  <option value="Class cancelled">Class cancelled</option>
+               </select>                        
+           </div>
+
+           <div class="reportBtnContainer">
+                <input type="submit" value="Report" class="reportBtn">
+           </div>
+
+        </form>
+         
+    </section>
+
+    <section class="confirmContainer displayNone">
+         <div class="close">                                                         
+             <button class="closeBtn"> <i class="fa-solid fa-x"></i></button>
+         </div>                                                             
+        <h3>Vennue Confirmation</h3>
+        <form action="" class="formContainer">
+            <div class="formInput">
+                   <label for="confirm">Vennue: </label>
+                   <input type="text" id="confirm" class="inputText" value="Block 20" readonly>
+            </div>
+            <div class="confirmBtnContainer">                           
+                 <input type="button" value="Cancel" class="reportBtn cancel">
+                 <input type="submit" value="Confirm" class="reportBtn confirm">
+            </div>                                                     
+        </form>
+    </section>
+    
+    <script src="assets/main.js"></script>
+</body>
+</html>

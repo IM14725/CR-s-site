@@ -1,0 +1,64 @@
+@media (max-width: 700px) {
+    h1 {                   
+        font-size: 18px;   
+    }                      
+    .profile {             
+        width: 15%;        
+    }                      
+    .innerContainer {      
+        width: 100%;       
+    }                      
+    .infContainer {        
+        gap: 10px;         
+    }                      
+    .info {                
+        width: 50%;        
+        font-size: 12px;   
+        gap: 10px;         
+    }                      
+    .reportBtn  {          
+        width: 90%;        
+    } 
+    .upperContainer {
+        width: 100%;
+    }  
+    .timeContainer {                   
+        display: flex;                 
+        justify-content: space-between;
+        align-items: end;  
+        flex-wrap: wrap;            
+  }  
+  .bookBtn {
+    width: 100%;
+    margin-top: 20px;
+  } 
+  .vennueContainer  {
+    width: 90%;
+  }  
+  .icon i {
+    font-size: 18px;
+  }  
+  .formContainer {
+     width: 100%;
+     border: none;
+     box-shadow: 0 0 0 black;
+  }  
+  .reportBtnContainer .reportBtn{
+    width: 40%;
+  } 
+  .inputText {
+    padding: 10px 20px;
+    background-color: white;
+  } 
+  
+  #confirm {     
+    border: none;                      
+    border-bottom: 1px solid #1b66b1;
+    box-shadow: none;                
+    border-radius: 0;                
+  }  
+  .cancel, .confirm {
+    width: 40%;
+  }  
+  
+}
