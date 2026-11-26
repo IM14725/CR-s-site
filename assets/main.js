@@ -1,38 +1,50 @@
+// ---------- Report / Add form (index.html and admin.html) ----------
 const reportBtn = document.querySelector(".reportBtn");
 const bookFormContainer = document.querySelector(".bookFormContainer");
-const closeBtn = document.querySelectorAll(".closeBtn");
 
-reportBtn.addEventListener('click', ()=> {
-    bookFormContainer.classList.remove('displayNone')
-})
+if (reportBtn && bookFormContainer) {
+    const closeForm = bookFormContainer.querySelector(".closeBtn");
 
-closeBtn[0].addEventListener('click', () => {
-     bookFormContainer.classList.add('displayNone')
-})
+    reportBtn.addEventListener("click", () => {
+        bookFormContainer.classList.remove("displayNone");
+    });
 
+    closeForm.addEventListener("click", () => {
+        bookFormContainer.classList.add("displayNone");
+    });
+}
 
+// ---------- Book Now confirmation (index.html only) ----------
+const confirmContainer = document.querySelector(".confirmContainer");
 
-const bookBtn = document.querySelectorAll(".bookBtn");
-const confirmContainer = document.querySelector('.confirmContainer')
-const confirmInput = document.querySelector('#confirm');
-const cancel = document.querySelector('.cancel')
-bookBtn.forEach(btn => {
-    btn.addEventListener('click', event => {
-        const vennueContainer = event.target.closest('.vennueContainer')
-        let vennue = vennueContainer.querySelector('.vennue').textContent;
-        confirmContainer.classList.remove('displayNone')
-         confirmInput.value = vennue;
+if (confirmContainer) {
+    const bookBtns = document.querySelectorAll(".bookBtn");
+    const confirmInput = confirmContainer.querySelector("#confirm");
+    const cancel = confirmContainer.querySelector(".cancel");
+    const closeConfirm = confirmContainer.querySelector(".closeBtn");
 
-    })
-})
+    const hideConfirm = () => {
+        confirmContainer.classList.add("displayNone");
+    };
 
-closeBtn[1].addEventListener('click', () => {      
-     confirmContainer.classList.add('displayNone')
-})  
-                   
-cancel.addEventListener('click', () => {      
-     confirmContainer.classList.add('displayNone') 
-})   
+    bookBtns.forEach(btn => {
+        btn.addEventListener("click", event => {
+            const venue = event.target
+                .closest(".venueContainer")
+                .querySelector(".venue")
+                .textContent.trim();
 
-const currentYear = document.querySelector('#currentYear')
-currentYear.textContent = new Date().getFullYear();
+            confirmInput.value = venue;
+            confirmContainer.classList.remove("displayNone");
+        });
+    });
+
+    closeConfirm.addEventListener("click", hideConfirm);
+    cancel.addEventListener("click", hideConfirm);
+}
+
+// ---------- Footer year ----------
+const currentYear = document.querySelector("#currentYear");
+if (currentYear) {
+    currentYear.textContent = new Date().getFullYear();
+}

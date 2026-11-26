@@ -1,15 +1,23 @@
 const fullName = document.querySelector("#fullName");
 const defaultPassword = document.querySelector("#defaultPassword");
 
+function randomDigit(length) {
+    const nums = crypto.getRandomValues(new Uint32Array(length));
+    return Array.from(nums, num => num % 10).join("");
+}
+
+let suffix = randomDigit(4);
+
 fullName.addEventListener("input", () => {
     const name = fullName.value.trim();
     if (name.length > 0) {
-        const password = name.split(" ")[0] + "@123";
-        defaultPassword.value = password;
+        defaultPassword.value = name.split(" ")[0] + "@" + suffix;
     } else {
         defaultPassword.value = "";
+        suffix = randomDigit(4);
     }
 });
+
 const searchResultContainer = document.querySelector('.searchResultContainer')
 const crContainer = [...document.querySelectorAll(".crContainer")];
 const serchInput = document.querySelectorAll('.serchInput')
