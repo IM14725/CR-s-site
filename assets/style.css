@@ -93,7 +93,7 @@ h1 {
 .upperContainer h2 {
     width: 100%;
 }
-.vennueContainer {
+.venueContainer {
     border: 1px solid #1b66b1;
     padding: 10px;
     width: 80%;
@@ -103,7 +103,7 @@ h1 {
     gap: 20px;
     margin-top: 30px;
 }
-.vennueContainer span {
+.venueContainer span {
     color: #1b66b1;
     font-weight: 600;
 }

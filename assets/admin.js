@@ -82,10 +82,6 @@ function searchFunction(serchInput) {
         searchResult.classList.add('searchResult')
     
         searchResult.innerHTML = `
-                <p><span>Reg Number:</span> NIT/BIT/2024/2441 </p> 
-                <p><span>Name:</span> Dotto Godfrey</p>
-                <p><span>Course:</span> Bachelor of Information Techology</p>
-                <p><span>Level:</span> 8, stream A</p>
                 <hr>
                 <div class="actionBtnContainer">
                     <button class="actionBtn edit"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
