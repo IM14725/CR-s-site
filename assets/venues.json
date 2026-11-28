@@ -1,0 +1,452 @@
+[
+  {
+    "name": "LR 02 - B 02",
+    "block": "Block 2",
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "LR 04 - B 02",
+    "block": "Block 2",
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "LR 06 - B 02",
+    "block": "Block 2",
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "LR 08 - B 02",
+    "block": "Block 2",
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "LR 01 - B 04 (181)",
+    "block": "Block 4",
+    "type": "Lecture room",
+    "capacity": 181
+  },
+  {
+    "name": "LR 01 - B 05 (250)",
+    "block": "Block 5",
+    "type": "Lecture room",
+    "capacity": 250
+  },
+  {
+    "name": "LR 01 BL 10 (99)",
+    "block": "Block 10",
+    "type": "Lecture room",
+    "capacity": 99
+  },
+  {
+    "name": "LR 02 BL10 (104)",
+    "block": "Block 10",
+    "type": "Lecture room",
+    "capacity": 104
+  },
+  {
+    "name": "BL 13 - LR 01 (143)",
+    "block": "Block 13",
+    "type": "Lecture room",
+    "capacity": 143
+  },
+  {
+    "name": "LR 02 BL13 (143)",
+    "block": "Block 13",
+    "type": "Lecture room",
+    "capacity": 143
+  },
+  {
+    "name": "LR 02&03 BL 14 (150)",
+    "block": "Block 14",
+    "type": "Lecture room",
+    "capacity": 150
+  },
+  {
+    "name": "LR 04 B14",
+    "block": "Block 14",
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "LWF 02 - B 15 - 250",
+    "block": "Block 15",
+    "type": "Lecture room",
+    "capacity": 250
+  },
+  {
+    "name": "LWF 03 - B 15 - 240",
+    "block": "Block 15",
+    "type": "Lecture room",
+    "capacity": 240
+  },
+  {
+    "name": "LWF 04 - B 15 - 240",
+    "block": "Block 15",
+    "type": "Lecture room",
+    "capacity": 240
+  },
+  {
+    "name": "LWGF (A) - BL15 (88 students)",
+    "block": "Block 15",
+    "type": "Lecture room",
+    "capacity": 88
+  },
+  {
+    "name": "LWGF (B) - BL15 (60 students)",
+    "block": "Block 15",
+    "type": "Lecture room",
+    "capacity": 60
+  },
+  {
+    "name": "RW GF (B) - BL 15 (125 students)",
+    "block": "Block 15",
+    "type": "Lecture room",
+    "capacity": 125
+  },
+  {
+    "name": "RWF 02 - B 15 - 246",
+    "block": "Block 15",
+    "type": "Lecture room",
+    "capacity": 246
+  },
+  {
+    "name": "RWF 03 - B 15 - 239",
+    "block": "Block 15",
+    "type": "Lecture room",
+    "capacity": 239
+  },
+  {
+    "name": "RWF 04 - B 15 -240",
+    "block": "Block 15",
+    "type": "Lecture room",
+    "capacity": 240
+  },
+  {
+    "name": "RWGF A - B 15 (125)",
+    "block": "Block 15",
+    "type": "Lecture room",
+    "capacity": 125
+  },
+  {
+    "name": "RC 01 - B 16",
+    "block": "Block 16",
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "VIP - B 17 (60)",
+    "block": "Block 17",
+    "type": "Lecture room",
+    "capacity": 60
+  },
+  {
+    "name": "LR 01 - B 18 (340)",
+    "block": "Block 18",
+    "type": "Lecture room",
+    "capacity": 340
+  },
+  {
+    "name": "LR 01 - B 19 (172)",
+    "block": "Block 19",
+    "type": "Lecture room",
+    "capacity": 172
+  },
+  {
+    "name": "LR 01 - B 20 (272)",
+    "block": "Block 20",
+    "type": "Lecture room",
+    "capacity": 272
+  },
+  {
+    "name": "LR 01 - B 21 (252)",
+    "block": "Block 21",
+    "type": "Lecture room",
+    "capacity": 252
+  },
+  {
+    "name": "MPH 01 - B 22",
+    "block": "Block 22",
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "CLASS 201 - CIVIL BUILDING",
+    "block": "Civil Building",
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "CLASS 202 - CIVIL BUILDING",
+    "block": "Civil Building",
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "AME I",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "AME II",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "AME III",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "AME IV",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "AME V",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "AME VI",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "BRIEFING CLASS 56",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": null
+  },
+  {
+    "name": "CEATO 1 (120)",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": 120
+  },
+  {
+    "name": "CEATO 2 (120)",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": 120
+  },
+  {
+    "name": "CLASS I (256)",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": 256
+  },
+  {
+    "name": "CLASS II (256)",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": 256
+  },
+  {
+    "name": "CLASS III (256)",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": 256
+  },
+  {
+    "name": "CLASS IV (256)",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": 256
+  },
+  {
+    "name": "CLASS V (154)",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": 154
+  },
+  {
+    "name": "CLASS VI (154)",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": 154
+  },
+  {
+    "name": "CLASS VII (154)",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": 154
+  },
+  {
+    "name": "CLASS VIII(231)",
+    "block": null,
+    "type": "Lecture room",
+    "capacity": 231
+  },
+  {
+    "name": "Auto Lab",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "Auto-electric and Control Engineering Lab",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "COMMUNICATION ENG. LAB",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "ELECTRICAL & CONTROL ENG. LAB",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "ELECTRICAL LAB",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "ELECTRONICS ENG. LAB",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "ELECTRONICS LAB",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "Engine and Drive train Engineering Lab",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "Maritime Lab",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "Material Testing Lab",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "Pipe work Lab",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "Production Engineering Lab",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "Welding and Fabrication Lab",
+    "block": null,
+    "type": "Lab",
+    "capacity": null
+  },
+  {
+    "name": "RC-Block Computer Lab 01",
+    "block": "RC Block",
+    "type": "Computer lab",
+    "capacity": null
+  },
+  {
+    "name": "RC-Block Computer Lab 02",
+    "block": "RC Block",
+    "type": "Computer lab",
+    "capacity": null
+  },
+  {
+    "name": "RC-Block Computer Lab 03",
+    "block": "RC Block",
+    "type": "Computer lab",
+    "capacity": null
+  },
+  {
+    "name": "RC-Block Computer Lab 05",
+    "block": "RC Block",
+    "type": "Computer lab",
+    "capacity": null
+  },
+  {
+    "name": "Aviation Computer Lab",
+    "block": null,
+    "type": "Computer lab",
+    "capacity": null
+  },
+  {
+    "name": "COMPUTER LAB",
+    "block": null,
+    "type": "Computer lab",
+    "capacity": null
+  },
+  {
+    "name": "Carpentry Workshop (160)",
+    "block": null,
+    "type": "Workshop",
+    "capacity": 160
+  },
+  {
+    "name": "HANGAR Workshop 1",
+    "block": null,
+    "type": "Workshop",
+    "capacity": null
+  },
+  {
+    "name": "HANGAR Workshop 2",
+    "block": null,
+    "type": "Workshop",
+    "capacity": null
+  },
+  {
+    "name": "HANGAR Workshop 3",
+    "block": null,
+    "type": "Workshop",
+    "capacity": null
+  },
+  {
+    "name": "Avionics Room",
+    "block": null,
+    "type": "Special room",
+    "capacity": null
+  },
+  {
+    "name": "Engine Room",
+    "block": null,
+    "type": "Special room",
+    "capacity": null
+  },
+  {
+    "name": "TEA ROOM",
+    "block": null,
+    "type": "Special room",
+    "capacity": null
+  },
+  {
+    "name": "VMT Room",
+    "block": null,
+    "type": "Special room",
+    "capacity": null
+  }
+]
